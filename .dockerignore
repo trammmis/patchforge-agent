@@ -1,0 +1,44 @@
+# Credentials and machine-specific configuration
+.env
+.env.*
+!.env.example
+
+# Python and editor caches
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.hypothesis/
+.history/
+.idea/
+.vscode/
+.claude/
+.cursor/
+.coverage
+htmlcov/
+build/
+dist/
+
+# Runtime artifacts and local dependencies
+.patchforge_runs/
+.patchforge_data/
+.patchforge_tmp/
+.guardian_runs/
+.schemathesis/
+.qa_*/
+logs/
+*.log
+*.db
+*.sqlite
+*.sqlite3
+tmp/
+output/
+benchmarks/guardian/.tools/
+benchmarks/guardian/worktrees/
+evals/reports/
+
+.git/
